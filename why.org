@@ -1,0 +1,18 @@
+Deepa spends a lot of time asking people to
+- fill in their timesheets
+- volunteer to review applicant code submission
+- volunteer for sales conversations
+
+This job is boring. And time taking. And a waste of Deepa's time.
+
+The idea is to make a bot do this work.
+
+Bot should:
+- be able to poke someone about a given thing, until the person says it is done
+- ensure people for a particular project have filled in their timesheets before telling Deepa the invoice is ready to send
+  - this ^ is prolly a subset of the generic nagging feature
+- know all the applicants waiting for reivew on code submission, ask people if they're free, willing to do this work, and then allocate it to them.
+  - if not, it should ask someone else.
+  - and then, it should follow up and find out if the work was done.
+  - and if necessary, re-delegate
+- do the same thing as above for sales work
